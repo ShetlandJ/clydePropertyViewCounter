@@ -2,7 +2,7 @@
 "manifest_version": 2,
     "name": "Clyde Numberer",
     "description": "Numbering your Clyde viewings",
-    "version": "1.1",
+    "version": "1.2",
     "content_scripts": [
         {
             "matches": [
