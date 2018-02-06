@@ -20,7 +20,7 @@ if (window.location.href.includes("my.clyde")) {
     counter++
   }
 
-  totalViewings[0].innerHTML = "<strong>"+ myRows.length + " viewings booked! </strong>"
+  totalViewings[0].innerHTML = "<strong>"+ myRows.length + ` ${myRows.length > 1 ? "viewings" : "viewing"}`+"</strong>"
 
   console.log(window.location.href);
 
